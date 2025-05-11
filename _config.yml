@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software engineer. Into interesting systems, research papers, gym sessions, and airports. Always up for a good project.
 # twitter_username: username
 github_username: adityabhat3
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: default
 search: true
 
 # Build settings

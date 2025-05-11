@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Aditya Bhat"
-  avatar : "/assets/images/new_me.jpg"
+  avatar : "/assets/images/new_me.jpeg"
   bio    : "Software engineer. Into interesting systems, research papers, gym sessions, and airports. Always up for a good project."
   links:
     # - label: "Website"

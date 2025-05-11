@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About"
+author_profile: true
 ---
 
 I'm a software engineer who enjoys building things that are interesting, useful, and well-crafted.

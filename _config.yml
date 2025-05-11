@@ -99,13 +99,9 @@ footer:
 
 defaults:
   # _posts
-  # - scope:
-      # path: ""
-  #about  
   - scope:
-    path: "_pages/about.md"
-    type: about
-      # type: about
+      path: ""
+      type: posts
     values:
       layout: single
       author_profile: true

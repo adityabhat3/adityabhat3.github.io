@@ -1,13 +1,18 @@
 .author__avatar {
-  opacity: 1 !important;
-  width: 140px; // or larger
+  width: 140px;   // or larger (160px, 180px, etc.)
   height: 140px;
-  border-radius: 50%; // keeps it circular
-}
-.author__avatar,
-.author__avatar img,
-a.author__avatar,
-a.author__avatar:hover {
+  border-radius: 50%;   // keeps it circular
   opacity: 1 !important;
-  pointer-events: none; // optional: disables click if you want
+  pointer-events: none; // just in case anything still tries to interact
+  transition: none;     // disables any hover animation
+}
+
+.author__avatar img {
+  opacity: 1 !important;
+  transition: none !important;
+}
+.author__avatar:hover {
+  opacity: 1 !important;
+  pointer-events: none; // just in case anything still tries to interact
+  transition: none;     // disables any hover animation
 }

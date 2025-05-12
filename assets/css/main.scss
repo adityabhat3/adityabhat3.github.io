@@ -1,8 +1,6 @@
 ---
 ---
-// Minimal Mistakes default imports
-@import "minimal-mistakes/skins/default"; // or your chosen skin
-@import "minimal-mistakes"; // core styles
 
-// Your custom styles
-@import "custom";
+@import "minimal-mistakes/skins/default"; // or your preferred skin
+@import "minimal-mistakes";               // core styles
+@import "custom";                         // your custom overrides

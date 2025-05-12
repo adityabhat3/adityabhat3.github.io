@@ -23,3 +23,13 @@
   pointer-events: none;         /* Ensures no hover effect or clickability */
   transition: none !important;
 }
+
+/* Prevent any clickable interaction in the sidebar */
+.sidebar {
+  pointer-events: none; /* Disable clicking/hovering on the sidebar */
+}
+
+/* Allow specific interactions, like the menu or links */
+.sidebar a {
+  pointer-events: auto; /* Allow links to be clickable */
+}

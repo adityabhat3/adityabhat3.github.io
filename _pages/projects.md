@@ -7,13 +7,13 @@ author_profile: true
 
 Here are some projects I’ve worked on recently — focused on learning through building interesting stuff.
 
----
+<!-- ---
 
 ### 📦 [Project One](https://github.com/yourusername/project-one)
 *A tool for [what it does]*  
 Built with [Tech Stack]. Solves [short problem description].  
 
----
+--- -->
 
 <!-- ### 🛠️ [Project Two](https://yourdomain.com/demo-or-link)
 *A lightweight app for [goal/use case]*  
@@ -33,4 +33,4 @@ Made with Next.js + Firebase. Built to stay lightweight and fast on mobile.
 
 --- -->
 
-More projects are on my [GitHub](https://github.com/yourusername) — feel free to explore or reach out if something catches your eye.
+More projects are on my [GitHub](https://github.com/adityabhat3) — feel free to explore or reach out if something catches your eye.

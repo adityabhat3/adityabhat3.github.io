@@ -1,18 +1,25 @@
+/* Ensure avatar is fully visible, no hover effect */
 .author__avatar {
-  width: 140px;   // or larger (160px, 180px, etc.)
-  height: 140px;
-  border-radius: 50%;   // keeps it circular
-  opacity: 1 !important;
-  pointer-events: none; // just in case anything still tries to interact
-  transition: none;     // disables any hover animation
+  width: 100%;                  /* Dynamically scales with container */
+  height: auto;                 /* Keep aspect ratio */
+  max-width: 180px;             /* Max width for bigger images */
+  opacity: 1 !important;        /* Ensure it's not transparent */
+  pointer-events: none;         /* Prevent hover/click interaction */
+  transition: none !important;  /* No hover effect */
 }
 
+/* Ensure the img inside the avatar has no hover effect and stays opaque */
 .author__avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;           /* Keeps it circular */
   opacity: 1 !important;
   transition: none !important;
 }
+
+/* Optional: Remove hover effect for any clickable areas */
 .author__avatar:hover {
   opacity: 1 !important;
-  pointer-events: none; // just in case anything still tries to interact
-  transition: none;     // disables any hover animation
+  pointer-events: none;         /* Ensures no hover effect or clickability */
+  transition: none !important;
 }

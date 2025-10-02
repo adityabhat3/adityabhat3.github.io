@@ -1,0 +1,13 @@
+/* --- Site-wide removal of all hover fades on author avatars and cards --- */
+.u-photo,
+.u-photo:hover,
+.author__avatar,
+.author__avatar:hover,
+.author__avatar a,
+.author__avatar a:hover,
+.h-card,
+.h-card *,
+.h-card *:hover {
+  opacity: 1 !important;       /* always fully visible */
+  transition: none !important;  /* disable all fade animations */
+}

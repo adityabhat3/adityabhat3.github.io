@@ -16,10 +16,10 @@
 title: Aditya Bhat
 email: adityabhat2003@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software engineer. Into interesting systems, research papers, gym sessions, and airports. Always up for a good project.
+  Software engineer. I like reading about tech and building cool stuff.
 # twitter_username: username
 github_username: adityabhat3
-minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 search: true
 
 # Build settings

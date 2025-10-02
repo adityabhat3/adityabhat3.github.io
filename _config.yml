@@ -63,7 +63,7 @@ plugins:
 
 author:
   name   : "Aditya Bhat"
-  avatar : "/assets/images/me.jpeg"
+  avatar : "/assets/images/me.jpg"
   bio    : "Software engineer. I like reading about tech and building cool stuff."
   links:
     # - label: "Website"

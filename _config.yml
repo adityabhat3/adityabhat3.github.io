@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software engineer. Into interesting systems, research papers, gym sessions, and airports. Always up for a good project.
 # twitter_username: username
 github_username: adityabhat3
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -63,8 +63,8 @@ plugins:
 
 author:
   name   : "Aditya Bhat"
-  avatar : "/assets/images/new_me.jpeg"
-  bio    : "Software engineer. Into interesting systems, research papers, gym sessions, and airports. Always up for a good project."
+  avatar : "/assets/images/me.jpeg"
+  bio    : "Software engineer. I like reading about tech and building cool stuff."
   links:
     # - label: "Website"
       # icon: "fas fa-fw fa-link"
@@ -83,7 +83,7 @@ author:
       url: "mailto:adityabhat2003@yahoo.com"
     - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "/assets/files/Aditya_Bhat_CV.pdf"
+      url: "/assets/files/my_resume.pdf"
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

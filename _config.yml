@@ -87,6 +87,11 @@ author:
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-QG7R9ETGCJ"
+
 
 footer:
   links:
